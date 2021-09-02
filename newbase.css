@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+
+
+html,body{
+
+  margin: 10px; /* Space from this element (entire page) and others*/
+  padding: 70px; /*space from content and border*/
+  border: solid black;
+  border-width: thick;
+  display:block;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h2 {
+    color: Black;
+    text-transform: uppercase;
+    font-size: 4vh;
+}
+
+.row {
+	color: black;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+.col-md-12 {
+  margin-top:3%;
+}
+
+
+#item{
+  width: 100%;
+  border:white;
+  outline-style: auto;
+  padding:15px;
+  max-width: 100%;;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+#list li {
+    cursor: pointer;
+    display:absolute;
+    list-style-type: none;
+    position: relative;
+    padding: 10px 20px;
+    background: #eee;
+    font-size: 2vh;
+    transition: 0.2s;
+    border-radius: 25px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+#list li:hover {
+    background: greenyellow;
+  }
+
+  .checked{
+    color: red;
+    text-decoration:line-through;
+  }
+
+#btnCreateFile{
+    font-size: 15px;
+    background: #035369;
+    margin-bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 13px;
+    border: white;
+    padding:7px;
+  }
+
+
+#downloadFile{
+  display: inline-block;
+  font-size: 15px;
+  background: salmon;
+  color: #fff;
+  border: white;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 13px;
+  padding:7px;
+  }
+
+
+
+
+  
